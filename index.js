@@ -22,10 +22,13 @@ else if((nivel_xp > 1000 && nivel_xp <= 2000)){
     rank = "Bronze";
 }
 else if(nivel_xp > 2000 && nivel_xp <= 5000){
-    rank = "Prata Ouro";
+    rank = "Prata";
 }
-else if((nivel_xp > 5000 && nivel_xp <= 8000)){
-    rank = "Platina Diamante";
+else if((nivel_xp > 6000 && nivel_xp <= 7000)){
+    rank = "Ouro";
+}
+else if((nivel_xp > 7000 && nivel_xp <= 8000)){
+    rank = "Platina";
 }
 else if((nivel_xp > 8000 && nivel_xp <= 9000)){
     rank = "Ascendente";
